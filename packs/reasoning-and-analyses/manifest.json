@@ -1,0 +1,67 @@
+{
+  "name": "reasoning-and-analyses",
+  "version": "1.0.0",
+  "description": "First-principles reasoning and analysis frameworks for conversation-time problem solving. Sourced from the First Principles Thinking video (Strong Slides).",
+  "skills": [
+    {
+      "name": "socratic-questioning",
+      "path": "../../skills/socratic-questioning/SKILL.md",
+      "description": "Six-category Socratic questioning pass to surface assumptions, evidence, viewpoints, implications, and meta-purpose before proposing any answer.",
+      "family": "first-principles"
+    },
+    {
+      "name": "fishbone-diagram",
+      "path": "../../skills/fishbone-diagram/SKILL.md",
+      "description": "Visual root-cause tool: problem at the fish head, cause categories on bones, specific causes on sub-bones.",
+      "family": "rca"
+    },
+    {
+      "name": "five-whys",
+      "path": "../../skills/five-whys/SKILL.md",
+      "description": "Repeated why questioning along a single causal chain until a root cause is reached.",
+      "family": "rca"
+    },
+    {
+      "name": "fault-tree-analysis",
+      "path": "../../skills/fault-tree-analysis/SKILL.md",
+      "description": "Top-down deductive failure analysis using AND/OR logic gates to combine basic events into a top undesired event.",
+      "family": "rca"
+    },
+    {
+      "name": "pareto-analysis",
+      "path": "../../skills/pareto-analysis/SKILL.md",
+      "description": "80/20 ranking of cause categories by impact to identify the vital few and deprioritize the trivial many.",
+      "family": "rca"
+    },
+    {
+      "name": "mind-mapping",
+      "path": "../../skills/mind-mapping/SKILL.md",
+      "description": "Branch-based exploration of a central topic, hierarchical and non-linear, mirroring how the brain holds related concepts.",
+      "family": "exploration"
+    },
+    {
+      "name": "blank-slate-design",
+      "path": "../../skills/blank-slate-design/SKILL.md",
+      "description": "Approach a problem with zero assumptions; discard inherited conventions and rebuild from truths only.",
+      "family": "first-principles"
+    },
+    {
+      "name": "cost-benefit-disassembly",
+      "path": "../../skills/cost-benefit-disassembly/SKILL.md",
+      "description": "Decompose a solution into component costs and benefits, evaluate each independently, re-assemble with only justified pairs.",
+      "family": "first-principles"
+    },
+    {
+      "name": "constraint-elimination",
+      "path": "../../skills/constraint-elimination/SKILL.md",
+      "description": "Surface every apparent constraint, classify each as hard (physics, law) vs soft (convention, policy), remove the soft ones before solving.",
+      "family": "first-principles"
+    },
+    {
+      "name": "analogy-vs-first-principle-matrix",
+      "path": "../../skills/analogy-vs-first-principle-matrix/SKILL.md",
+      "description": "2x2 to decide whether a problem should be reasoned by analogy or by first principles, based on stakes and novelty.",
+      "family": "decision"
+    }
+  ]
+}
