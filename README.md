@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="brand/banners/banner-readme-1280x320.png" alt="skills" width="800">
+</p>
+
 # Agent Skills
 
 Reusable skills for AI coding agents, organized for installation with the
@@ -8,19 +12,19 @@ open `skills` CLI.
 List the available skills:
 
 ```bash
-npx skills@latest add c-wenlong/agent-skills --list
+npx skills@latest add starship-terminal/skills --list
 ```
 
 Install interactively:
 
 ```bash
-npx skills@latest add c-wenlong/agent-skills
+npx skills@latest add starship-terminal/skills
 ```
 
 Install a specific skill:
 
 ```bash
-npx skills@latest add c-wenlong/agent-skills --skill five-whys
+npx skills@latest add starship-terminal/skills --skill five-whys
 ```
 
 ## Catalog
