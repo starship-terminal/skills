@@ -7,6 +7,8 @@
 Reusable skills for AI coding agents, organized for installation with the
 open `skills` CLI.
 
+See [FEATURES.md](FEATURES.md) for the full feature inventory.
+
 ## Install
 
 List the available skills:
