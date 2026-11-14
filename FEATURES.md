@@ -5,7 +5,7 @@ Reusable first-principles reasoning skills for AI coding agents, packaged for in
 ## Install and routing
 
 - **Install with the skills CLI**: lists, installs interactively, or installs one named skill from this repo. Status: stable. Surface: CLI. Entry point: `npx skills@latest add starship-terminal/skills` (README.md). Tests: none.
-- **Pack dispatcher skill**: picks one of the ten child frameworks when the problem shape is unclear, or asks the user when two fit. It routes only and never applies a framework itself. Status: stable. Surface: skill. Entry point: `skills/reasoning-and-analyses/SKILL.md`. Tests: none.
+- **Pack dispatcher skill**: picks one of the ten child frameworks when the problem shape is unclear, or asks the user when two fit. It routes only and never applies a framework itself; the selected child skill must also be installed to continue. Status: stable. Surface: skill. Entry point: `skills/reasoning-and-analyses/SKILL.md`. Tests: none.
 
 ## Root-cause analysis
 
