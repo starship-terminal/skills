@@ -1,6 +1,6 @@
 ---
 name: reasoning-and-analyses
-version: 1.0.1
+version: 1.0.2
 description: |
   Use when the user has a problem to think through, diagnose, restructure, or
   reason about from first principles. Dispatches to a child framework inside
@@ -35,7 +35,7 @@ This is the dispatcher for the `reasoning-and-analyses` skillpack. It picks the 
 1. **Restate the problem.** In one line, back to the user.
 2. **Assess the shape.** Fuzzy? Multi-cause? Single symptom chain? Parallel failures? Need to prioritize? Need to explore? Stuck on convention? Trade-offs to decompose? Blocked by "we can't"? Choosing analogy vs first-principles?
 3. **Route.** Look up the shape in the table below. Resolve to one child skill.
-4. **Hand off.** Open the child `SKILL.md` and follow its Phases. Don't re-apply this dispatcher.
+4. **Hand off.** Find the installed child named by the route, open its `SKILL.md`, and follow its Phases. Don't re-apply this dispatcher.
 
 ## Routing table
 
@@ -62,7 +62,7 @@ If two rows match, name the two candidates and ask the user which fits. Don't gu
 PROBLEM: <one line, restated>
 SHAPE: <the row that matched>
 ROUTE: <child skill slug>
-HANDOFF: open skills/<slug>/SKILL.md and follow its Phases
+HANDOFF: find the installed child named by ROUTE, open its SKILL.md, and follow its Phases
 ```
 
 If two rows match, `ROUTE` names both candidates and `HANDOFF` is `ask`, not a slug.
