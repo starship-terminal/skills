@@ -1,8 +1,8 @@
 ---
 name: analogy-vs-first-principle-matrix
-version: 1.0.0
+version: 1.0.1
 description: |
-  Use as a meta-skill before applying any first-principles framework. A 2x2
+  Use when choosing analogy or first principles before applying a framework. A 2x2
   matrix that decides whether the problem should be reasoned by analogy
   (copy/improve a similar solution — faster, safer when an analogous problem
   has a proven solution) or by first principles (derive from fundamentals —

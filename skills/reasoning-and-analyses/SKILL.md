@@ -1,6 +1,6 @@
 ---
 name: reasoning-and-analyses
-version: 1.0.0
+version: 1.0.1
 description: |
   Use when the user has a problem to think through, diagnose, restructure, or
   reason about from first principles. Dispatches to a child framework inside
@@ -55,6 +55,17 @@ This is the dispatcher for the `reasoning-and-analyses` skillpack. It picks the 
 ## When the shape is ambiguous
 
 If two rows match, name the two candidates and ask the user which fits. Don't guess. The child skills produce very different output and the wrong pick wastes a Phase.
+
+## Output Format
+
+```
+PROBLEM: <one line, restated>
+SHAPE: <the row that matched>
+ROUTE: <child skill slug>
+HANDOFF: open skills/<slug>/SKILL.md and follow its Phases
+```
+
+If two rows match, `ROUTE` names both candidates and `HANDOFF` is `ask`, not a slug.
 
 ## Anti-Patterns
 

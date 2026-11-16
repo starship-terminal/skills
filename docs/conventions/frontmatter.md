@@ -56,6 +56,7 @@ family: <family>
 ### `family`
 - Logical grouping inside the pack.
 - For `reasoning-and-analyses`: `first-principles`, `rca`, `exploration`, `decision`.
+- The pack router itself uses `dispatcher`. That value is allowed only on the skill whose folder matches the pack name and whose job is to pick a child. It is not a child family.
 - Skills in the same family often share pack-level `references/`.
 
 ## Forbidden fields
