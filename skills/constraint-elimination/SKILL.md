@@ -1,6 +1,6 @@
 ---
 name: constraint-elimination
-version: 1.0.0
+version: 1.0.1
 description: |
   Use when the user is stuck on "we can't" and the source of the can't is
   unclear. Surface every apparent constraint, classify each as hard (physics,
@@ -101,7 +101,7 @@ RECONCILED AGAINST HARD:
   (additive), respects calendar (MVP scope fits before August). YES.
 ```
 
-## Anti-patterns
+## Anti-Patterns
 
 - Collapsing HARD into SOFT because the constraint is inconvenient. Compute, physics, regulation, and contract are real. They don't bend because you want them to.
 - Removing only one constraint and calling it done. The skill removes ALL softs; the looser problem is the union of all removals.
