@@ -40,6 +40,6 @@ Reusable first-principles reasoning skills for AI coding agents, packaged for in
 
 ## Brand
 
-- **Brand kit**: logos, lockups, banners, icons, fonts and a brand sheet for the repo. Status: stable. Surface: docs. Entry point: `brand/brand.md`. Tests: none.
+- **Brand kit**: logos, lockups, banners, icons, fonts and a brand sheet for the repo. Status: stable. Surface: docs. Entry point: `.brand/brand.md`. Tests: none.
 
 No planned features: the repo has no roadmap, milestone or spec documents.
